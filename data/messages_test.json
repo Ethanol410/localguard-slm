@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "text": "Merci pour ton aide, c'etait tres clair.",
+    "expected_label": "neutral",
+    "expected_risk_level": "none",
+    "category": "normal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "text": "Bonne journee a toi !",
+    "expected_label": "neutral",
+    "expected_risk_level": "none",
+    "category": "normal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "text": "J'ai bien recu ton message, je te reponds plus tard dans la journee.",
+    "expected_label": "neutral",
+    "expected_risk_level": "none",
+    "category": "normal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "text": "Super travail sur le rapport, bravo.",
+    "expected_label": "neutral",
+    "expected_risk_level": "none",
+    "category": "normal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "text": "On se voit demain en reunion ?",
+    "expected_label": "neutral",
+    "expected_risk_level": "none",
+    "category": "normal",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "text": "Ton rendu n'est pas encore au niveau, mais on peut l'ameliorer ensemble.",
+    "expected_label": "constructive_criticism",
+    "expected_risk_level": "low",
+    "category": "feedback",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "text": "Je pense que tu pourrais structurer ta presentation autrement, ce serait plus clair pour le jury.",
+    "expected_label": "constructive_criticism",
+    "expected_risk_level": "low",
+    "category": "feedback",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "text": "Attention aux fautes dans le doc, prends le temps de te relire avant d'envoyer.",
+    "expected_label": "constructive_criticism",
+    "expected_risk_level": "low",
+    "category": "feedback",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "text": "Ton idee est interessante mais il manque des arguments pour convaincre.",
+    "expected_label": "constructive_criticism",
+    "expected_risk_level": "low",
+    "category": "feedback",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "text": "Franchement t'es nul, tu comprends jamais rien.",
+    "expected_label": "insult",
+    "expected_risk_level": "medium",
+    "category": "agression",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "text": "T'es vraiment con ou tu fais semblant ?",
+    "expected_label": "insult",
+    "expected_risk_level": "medium",
+    "category": "agression",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "text": "Quel boulet serieux, j'en peux plus de toi.",
+    "expected_label": "insult",
+    "expected_risk_level": "medium",
+    "category": "agression",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "text": "T'es la pire personne du groupe, sans deconner.",
+    "expected_label": "insult",
+    "expected_risk_level": "medium",
+    "category": "agression",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "text": "Tout le monde se moque de toi dans le groupe.",
+    "expected_label": "humiliation",
+    "expected_risk_level": "high",
+    "category": "agression",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "text": "Tu fais honte a toute la promo avec tes questions debiles.",
+    "expected_label": "humiliation",
+    "expected_risk_level": "high",
+    "category": "agression",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "text": "Meme un enfant de 6 ans ferait mieux que toi sur ce projet.",
+    "expected_label": "humiliation",
+    "expected_risk_level": "medium",
+    "category": "agression",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "text": "Personne ne te prend au serieux ici, t'as pas remarque ?",
+    "expected_label": "humiliation",
+    "expected_risk_level": "high",
+    "category": "agression",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "text": "On devrait arreter de l'inviter, il sert a rien de toute facon.",
+    "expected_label": "exclusion",
+    "expected_risk_level": "high",
+    "category": "exclusion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "text": "Faites le groupe sans elle, ca ira plus vite.",
+    "expected_label": "exclusion",
+    "expected_risk_level": "medium",
+    "category": "exclusion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "text": "Si tu viens en soiree, moi je viens pas.",
+    "expected_label": "exclusion",
+    "expected_risk_level": "medium",
+    "category": "exclusion",
+    "difficulty": "hard"
+  },
+  {
+    "id": 21,
+    "text": "Tu vas regretter d'avoir dit ca.",
+    "expected_label": "threat",
+    "expected_risk_level": "high",
+    "category": "menace",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "text": "Fais gaffe a toi quand on se croisera dans les couloirs.",
+    "expected_label": "threat",
+    "expected_risk_level": "high",
+    "category": "menace",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "text": "Tu sais ce qui arrive a ceux qui me cherchent ?",
+    "expected_label": "threat",
+    "expected_risk_level": "high",
+    "category": "menace",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "text": "Encore toi... bon courage a ceux qui doivent bosser avec toi.",
+    "expected_label": "ambiguous",
+    "expected_risk_level": "medium",
+    "category": "ambigu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 25,
+    "text": "Mdr ouais c'est ca, t'es trop fort toi.",
+    "expected_label": "ambiguous",
+    "expected_risk_level": "low",
+    "category": "ambigu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 26,
+    "text": "T'inquiete, on a l'habitude avec toi.",
+    "expected_label": "ambiguous",
+    "expected_risk_level": "low",
+    "category": "ambigu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 27,
+    "text": "Genial, encore une de tes idees...",
+    "expected_label": "ambiguous",
+    "expected_risk_level": "low",
+    "category": "ambigu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 28,
+    "text": "On va voir si tu tiens jusqu'a la fin du projet.",
+    "expected_label": "ambiguous",
+    "expected_risk_level": "medium",
+    "category": "ambigu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 29,
+    "text": "T'es special toi hein.",
+    "expected_label": "ambiguous",
+    "expected_risk_level": "medium",
+    "category": "ambigu",
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "text": "C'etait sympa de bosser avec toi sur ce projet, on remet ca quand tu veux.",
+    "expected_label": "neutral",
+    "expected_risk_level": "none",
+    "category": "normal",
+    "difficulty": "easy"
+  }
+]
